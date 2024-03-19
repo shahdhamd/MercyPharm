@@ -1,55 +1,52 @@
-.footer span{
+.footer span {
     font-size: 1rem;
     line-height: 1.75rem;
     color: var(--main-color);
     font-weight: 500;
 
 }
-.footer .row{
-    /* border-top:2px solid var(--main-color) ; */
-}
-.footer h5{
+
+.footer h5 {
     font-size: 1rem;
     line-height: 1.75rem;
     font-weight: 700;
     color: var(--main-color);
 }
-.footer p{
-    color:rgb(107, 114, 128);
+
+.footer p {
+    color: rgb(107, 114, 128);
 }
-.footer .icon{
-border-radius: 50%;
-/* background-color: var(--main-color); */
-background-color: rgb(165, 200, 166);
-/* padding: 5px 10px; */
-color: var(--main-color);
-text-align: center;
-width: 35px;
-height: 35px;
-display: flex;
-justify-content: center;
-align-items: center;
+
+.footer .icon {
+    border-radius: 50%;
+    background-color: rgb(165, 200, 166);
+    color: var(--main-color);
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.footer .icon:hover{
+
+.footer .icon:hover {
     background-color: var(--main-color);
-color: white;
-    }
+    color: white;
+}
 
 
-.footer .line{
+.footer .line {
     width: 98px;
-    /* position: absolute;
-    top: 19px;
-    right: 88px; */
 }
 
-.footer .afterLine{
-width: 100%;
-height: 1px;
-background-color: rgb(165, 200, 166);
+.footer .afterLine {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(165, 200, 166);
 }
-@media (max-width: 768px){
-    .footer .row{
+
+@media (max-width: 768px) {
+    .footer .row {
         text-align: center;
     }
 }

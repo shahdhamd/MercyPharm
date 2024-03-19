@@ -1,10 +1,8 @@
 .care  .text{
-    /* margin-top: 80px ; */
     color: var(--main-color);
     position: relative;
     text-align: center;
     padding-top: 100px ;
-    /* margin-top: 75px; */
 }
 .care .line{
     position: absolute;
@@ -28,11 +26,9 @@
 .care .FaceCare .text{
     width:60%;
     padding: 70px;
-    /* padding-right: 20px; */
     height: 70vh;    
     background-color:#7db170;
 
-/* max-width: 420px; */
 }
 .care .FaceCare .text h2{
     font-size: 3rem;
@@ -62,7 +58,6 @@ width: 115% !important;
 
 }
 .FaceCare .image{
-    /* width: 40%; */
     background-color: white!important;
 }
 @media (max-width: 992px){

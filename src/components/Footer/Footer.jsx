@@ -12,7 +12,6 @@ function Footer() {
             <div className="container "  style={{direction:language=='en'?'ltr':'rtl'}}>
                 <motion.div
                 initial={{y:100,opacity:0}}
-                // animate={{y:0,opacity:1}}
                 transition={{duration:.5}}
                 whileInView={{y:0,opacity:1}}
                 className="row ">
@@ -38,11 +37,6 @@ function Footer() {
         <p style={{textTransform:"capitalize"}}>{p.title_en}</p> :
         <p>{p.title_ar}</p>
 ))}
-
-                        {/* <p>Face Care</p>
-                        <p>Body Care</p>
-                        <p>Hair Care</p>
-                        <p>Medical Line</p> */}
                     </div>
                     <div className="col-md-3 text-center my-4">
                         <h5>{t('footer.socials')}</h5>

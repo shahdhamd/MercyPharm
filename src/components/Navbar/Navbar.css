@@ -16,7 +16,6 @@ font-weight:600!important;
 }
 
 .navbar{
-    /* filter: drop-shadow(0 0 5px red); */
     box-shadow: 0 0 5px rgb(110, 95, 95);
     background-color: white;
 }
