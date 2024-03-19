@@ -1,0 +1,36 @@
+[
+    {
+        "id":1,
+        "title_en": "FACE CARE",
+        "desc_en": "Transform your skin with our personalized skincare solutions, that nourish and rejuvenate your skin naturally.",
+        "image": "https://res.cloudinary.com/dh2jv4rcf/image/upload/v1705447294/mercy-pharmacy/categories/ngjn8r7kmqncplyvsgcj.jpg"
+        ,"title_ar": "العناية بالوجه",
+        "desc_ar": "قم بتغيير بشرتك من خلال منتجات العناية بالبشرة المخصصة لدينا التي تعمل على تغذية و تجديد بشرتك بشكل طبيعي."
+        
+    },
+    {
+        "id":2,
+        "title_en": "BODY CARE",
+        "desc_en": "Treatments that nourish your body, mind, and soul, leaving you refreshed and rejuvenated.",
+        "image": "https://res.cloudinary.com/dh2jv4rcf/image/upload/v1705446234/mercy-pharmacy/categories/e09iub9mybip3fixiw1u.jpg"
+        ,"title_ar": "العناية بالجسم",
+        "desc_ar": "منتجات علاجية تعمل على تغذية الجسد والروح وتترك شعوراً منتعشاً ومتجددا."
+        
+    },
+    {
+        "id":3,
+        "title_en": "HAIR CARE",
+        "desc_en": "Achieve gorgeous and healthy hair with our selection of natural hair care products, free from harmful chemicals and synthetic additives.",
+        "image": "https://res.cloudinary.com/dh2jv4rcf/image/upload/v1705447328/mercy-pharmacy/categories/cofu29djngguzxeabf3j.jpg"
+        ,"title_ar":"العناية بالشعر",
+        "desc_ar":"احصلي على شعر رائع و صحي مع منتجاتنا المختارة للعناية بالشعر و المكونة من مواد طبيعية ، خالية من أي مواد كيميائية ضارة."
+    },
+    {
+        "id":4,
+        "title_en": "MEDICAL LINE",
+        "desc_en": "Experience the power of nature with our collection of natural wellness products, promoting overall health and vitality.",
+        "image": "https://res.cloudinary.com/dh2jv4rcf/image/upload/v1705446629/mercy-pharmacy/categories/vvfflo2ankoozerapkj8.jpg"
+        ,"title_ar":"المنتجات العلاجية",
+        "desc_ar":"استكشف قوة الطبيعة من خلال مجموعتنا من المنتجات العلاجية الطبيعية و التي تعزز الصحة العامة والحيوية"
+    }
+]

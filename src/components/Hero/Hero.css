@@ -1,0 +1,78 @@
+.hero{
+
+    
+        height: 100vh;
+        margin-top: 79px;
+        /* border-bottom: 3px solid var(--main-color) */
+    }
+.hero .mainn{
+    position: relative;
+    /* min-width: 380px; */
+    min-width: 265px;
+}
+.hero .text{
+    position: absolute;
+    top:30%;
+    /* left: 20px; */
+    text-align: center;
+    color: var(--main-color);
+width: 90%;
+
+z-index: 99;
+}
+.hero h1{
+    font-size: 3.5rem;
+color: var(--main-color);
+font-weight: 600;
+line-height: 1;
+}
+.hero .text span{
+    font-size: 1rem;
+    line-height: 1.75rem;
+
+}
+.hero .last{
+    position: relative;
+    border-right:1px solid var(--main-color) ;
+
+}
+.imageleav{
+    position: absolute;
+    top:70px;
+    rotate:180deg;
+    right: 1px;
+
+}
+
+.hero .first{
+    position: relative;
+}
+.hero .imagelev{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.natural{
+
+}
+.hero .row{
+
+    border-bottom: 3px solid var(--main-color)
+
+}
+.naturalDiv{
+    z-index: 999;
+    width: 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 4rem;
+    right: -7rem;
+}
+@media (max-width: 992px){
+    .hero{
+    
+        /* height: calc(-40px + 100vh); */
+    }
+}

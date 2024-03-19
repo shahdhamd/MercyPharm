@@ -1,0 +1,30 @@
+.contact .leav{
+    rotate: 85deg;
+    width:150px;
+    position: absolute;
+    top: -18px;
+    left: 128px;
+}
+
+.contact{
+    /* width: 90%; */
+    margin: auto;
+
+}
+.contact .communicatin{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    align-items: center;
+}
+.contact .icon{
+    /* padding: 20px; */
+    text-align: center;
+    color: var(--main-color);
+}
+.contact .communicatin i{
+    font-size: xxx-large;
+}
+.contact .communicatin .icon p{
+    font-weight: 700;
+}

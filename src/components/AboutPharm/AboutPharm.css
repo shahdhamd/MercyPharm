@@ -1,0 +1,17 @@
+.about .image{
+    height: 70vh;
+    background-image: url('https://mercypharm.com/images/basic/about-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    width: 100%;
+
+}
+.about .carddd:hover{
+background-color: #7db170;
+}
+.about .carddd{
+    border-radius: 10px;
+    text-align: center;
+}
+

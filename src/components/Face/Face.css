@@ -1,0 +1,27 @@
+.face .image {
+margin-top: 70px;
+position: relative;
+}
+
+.face .image h2{
+    font-size: xxx-large;
+    color: white;
+}
+.face{
+    /* padding-top: 25px; */
+}
+.face .image img{
+object-fit: cover;
+height: 361px;
+}
+.face .overlady{
+    background-color: rgba(0, 0, 0,.5);
+z-index: 999;
+position: absolute;
+top:0;
+left: 0;
+bottom: 0;
+right: 0;display: flex;
+justify-content: center;
+align-items: center;
+} 
