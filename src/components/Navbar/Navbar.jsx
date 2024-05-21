@@ -58,7 +58,7 @@ function Navbar() {
           <div class="offcanvas-body ">
             <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 gap-3">
               <li class="nav-item">
-                <NavLink to='home' className= "nav-link "  aria-current="page" href="#" >{t('navlinks.home')}</NavLink>
+                <NavLink to='/' className= "nav-link "  aria-current="page" href="#" >{t('navlinks.home')}</NavLink>
               </li>
               <li class="nav-item">
                 <NavLink to='product' className= "nav-link " aria-current="page" href="#">{t('navlinks.products')}</NavLink>
