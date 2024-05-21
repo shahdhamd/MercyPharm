@@ -84,7 +84,7 @@
         direction: rtl!important;
     }
     .hero{
-        height: fit-content;
+        height: 70vh;
     }
     .naturalDiv{
         display: none;
