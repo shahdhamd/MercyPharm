@@ -15,3 +15,11 @@ background-color: #7db170;
     text-align: center;
 }
 
+@media (max-width: 752px){
+    .about .image{
+        height: 43vh;
+    }
+    .about .text p{
+        font-size: 15px!important;
+    }
+}

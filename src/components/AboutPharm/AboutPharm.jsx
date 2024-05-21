@@ -31,7 +31,7 @@ function AboutPharm() {
           >{t("about.desc")}</motion.p>
         </div>
         <div style={{ textAlign: 'center' }}>
-          <h2 style={{ margin: 'auto', borderBottom: '2px solid #7db170', width: 'fit-content', fontSize: '25px', color: 'var(--main-color)' }}>{t("about.secondTitle.main")}</h2>
+          <h2 style={{ margin: '10px auto', borderBottom: '2px solid #7db170', width: 'fit-content', fontSize: 'calc(1rem + .9vw)', color: 'var(--main-color)' }}>{t("about.secondTitle.main")}</h2>
           <span>
           {t("about.secondTitle.second")}
           </span>

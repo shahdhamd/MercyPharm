@@ -14,8 +14,10 @@ function Contact() {
   },[])
   return (
     <>
-    { loading ? <Spinner/> :
-        <ContactComp/>}
+    {/* { loading ? <Spinner/> : */}
+
+        <ContactComp/>
+        {/* } */}
     </>
   )
 }

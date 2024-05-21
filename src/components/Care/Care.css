@@ -79,6 +79,13 @@ width: 115% !important;
     .care .FaceCare .text{
         width:100%;
         padding-left: 70px;
-    
+        width: 100%;
+        padding: 10px 10px 10px 20px;
+        text-align: center;
+        margin: auto;
+    height: auto;
+    }
+    .care .FaceCare .text h2{
+        font-size: 2rem;
     }
 }

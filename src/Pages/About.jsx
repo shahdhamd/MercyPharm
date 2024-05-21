@@ -14,8 +14,9 @@ function About() {
   },[])
   return (
     <>
-    { loading ? <Spinner /> :
-        <AboutPharm/>}
+    {/* { loading ? <Spinner /> : */}
+        <AboutPharm/>
+         {/* } */}
     </>
   )
 }

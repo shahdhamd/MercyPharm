@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Navbar.css'
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { changeLanguage, i18n } from 'i18next';
 import DataProduct from '../../Data/FaceProduct.json'
@@ -47,7 +47,7 @@ function Navbar() {
 
 
     <nav class="navbar navbar-expand-lg fixed-top navbar" style={{ direction: direction }} >
-      <div className="container-fluid" style={{ height: '60px', width: '80%', margin: 'auto' }}>
+      <div className="container-fluid" style={{ height: '40px', width: '80%', margin: 'auto' }}>
         <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" >
           <i class="fa-solid fa-bars"></i>        </button>
         <img src='https://mercypharm.com/assets/logo-maVgS3ug.svg' height={'100%'} />
@@ -58,16 +58,16 @@ function Navbar() {
           <div class="offcanvas-body ">
             <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 gap-3">
               <li class="nav-item">
-                <Link to='home' className={active == 'HOME' ? "nav-link active" : 'nav-link '} aria-current="page" href="#" onClick={() => setActive('HOME')} >{t('navlinks.home')}</Link>
+                <NavLink to='home' className= "nav-link "  aria-current="page" href="#" >{t('navlinks.home')}</NavLink>
               </li>
               <li class="nav-item">
-                <Link to='product' className={active == 'PRODUCT' ? "nav-link active" : 'nav-link '} aria-current="page" href="#" onClick={() => setActive('PRODUCT')} >{t('navlinks.products')}</Link>
+                <NavLink to='product' className= "nav-link " aria-current="page" href="#">{t('navlinks.products')}</NavLink>
               </li>
               <li className="nav-item">
-                <Link to='about' className={active == 'ABOUT US' ? "nav-link active" : 'nav-link '} aria-current="page" href="#" onClick={() => setActive('ABOUT US')} >{t('navlinks.about')}</Link>
+                <NavLink to='about' className= "nav-link" aria-current="page" href="#" >{t('navlinks.about')}</NavLink>
               </li>
               <li className="nav-item">
-                <Link to='contact' className={active == 'CONTACT' ? "nav-link active" : 'nav-link '} aria-current="page" href="#" onClick={() => setActive('CONTACT')} >{t('navlinks.contact')}</Link>
+                <NavLink to='contact' className= "nav-link " aria-current="page" href="#">{t('navlinks.contact')}</NavLink>
               </li>
             </ul>
 

@@ -13,17 +13,17 @@ import CategoryFace from './Pages/CategoryFace.jsx';
 function App() {
   const [loading,setLoading]=useState(true)
   useEffect(()=>{
-    if(!loading){
-      setLoading(true)
-    }
-    setTimeout(()=>{
-      setLoading(false)
-    },3000)
+  //   if(!loading){
+  //     setLoading(true)
+  //   }
+  //   setTimeout(()=>{
+  //     setLoading(false)
+  //   },3000)
   },[])
   return (
     <>
          <Navbar/>
-{ loading ? <Spinner/> :
+{/* { loading ? <Spinner/> : */}
   <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/home' element={<Home/>} />
@@ -31,7 +31,8 @@ function App() {
         <Route path='/about' element={<About/>} />
         <Route path='/contact' element={<Contact/>} />
         <Route path='/category/:id' element={<CategoryFace/>} />
-      </Routes>}
+      </Routes>
+      {/* } */}
      <Footer/>
     </>
   );

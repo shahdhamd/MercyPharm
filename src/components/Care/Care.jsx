@@ -40,7 +40,7 @@ function Care() {
                                                 animate={{ opacity: 1, scale: 1 }}
                                                 transition={{ duration: .8 }} style={{ position: 'relative', width: 'fit-content', display: 'block' }} className='btn-more'>
                                                 <p style={{ borderBottom: '1px solid var(--main-color)', color: 'var(--main-color)', width: '115%', fontSize: '25px', paddingRight: '10px', textAlign: 'start' }} className='more' id='more'>{getLanguageText('More', 'المزيد')}</p>
-                                                <div style={{ borderRadius: '50%', width: '20px', height: '20px', border: '1px solid var(--main-color)', position: 'absolute', bottom: '-10px', left: '79px' }} className='cycli'></div>
+                                                <div style={{ borderRadius: '50%', width: '20px', height: '20px', border: '1px solid var(--main-color)', position: 'absolute', bottom: '-10px',left: language === 'en' ? '79px' : '-21px' }} className='cycli'></div>
                                             </motion.div></Link>
 
                                     </div>
@@ -72,7 +72,7 @@ function Care() {
                                                 animate={{ opacity: 1, scale: 1 }}
                                                 transition={{ duration: .8 }} style={{ position: 'relative', width: 'fit-content', display: 'block' }} className='btn-more'>
                                                 <p style={{ borderBottom: '1px solid rgba(255, 255, 255, 0.75)', color: ' rgba(255, 255, 255, 0.75)', width: '115%', fontSize: '25px', paddingRight: '10px', textAlign: 'start' }} className='more' id='more'>{getLanguageText('More', 'المزيد')}</p>
-                                                <div style={{ borderRadius: '50%', width: '20px', height: '20px', border: '1px solid rgba(255, 255, 255, 0.75)', position: 'absolute', bottom: '-10px', left: '79px' }} className='cycli'></div>
+                                                <div style={{ borderRadius: '50%', width: '20px', height: '20px', border: '1px solid rgba(255, 255, 255, 0.75)', position: 'absolute', bottom: '-10px',left: language === 'en' ? '79px' : '-21px'}} className='cycli'></div>
                                             </motion.div>
                                         </Link>
 
