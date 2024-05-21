@@ -15,7 +15,7 @@ function Care() {
             <motion.div className='text' initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: .8 }}>
                 <h1
-                >{t("products.title")}<br /><img src='https://mercypharm.com/images/basic/line.svg' />
+                >{t("products.title")}<br /><img src='https://mercypharm.com/images/basic/line.svg' alt='line'/>
                 </h1>
                 <span
                 >{t('products.pageDesc')}</span>

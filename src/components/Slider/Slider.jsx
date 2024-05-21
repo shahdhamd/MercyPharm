@@ -51,7 +51,7 @@ function Slider() {
               width={'100%'} style={{ height: '100%', minHeight: '100vh' }} 
 						/>
 					</AnimatePresence> */}
-      <motion.img src="/images/11 (1).jpg" alt="" initial={{ opacity: 0, x: -100 }}
+      <motion.img src="/images/11 (1).jpg" alt="image" initial={{ opacity: 0, x: -100 }}
         animate={{ opacity: 1, x: 0 }}
         width={'100%'}
 

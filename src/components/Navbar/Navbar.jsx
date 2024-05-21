@@ -50,7 +50,7 @@ function Navbar() {
       <div className="container-fluid" style={{ height: '40px', width: '80%', margin: 'auto' }}>
         <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" >
           <i class="fa-solid fa-bars"></i>        </button>
-        <img src='https://mercypharm.com/assets/logo-maVgS3ug.svg' height={'100%'} />
+        <img src='https://mercypharm.com/assets/logo-maVgS3ug.svg' alt='logo'   height={'100%'} />
         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -93,7 +93,7 @@ function Navbar() {
                 <div className='card' style={{ border: '1px solid #dee2e6', width: "calc(100% - 55px)", transition: 'all .2s ease' }} >
                   <ul className="list-group list-group-flush">
                     {searchResults.map((result, index) => (
-                    <li key={index} className="list-group-item w-100 d-flex justify-content-between"><img src={result.image}  height={'40px'} style={{objectFit:'cover',marginLeft:'5px'}}/><p>{result.title}</p></li>
+                    <li key={index} className="list-group-item w-100 d-flex justify-content-between"><img src={result.image}  height={'40px'} style={{objectFit:'cover',marginLeft:'5px'}}  alt='image'  /><p>{result.title}</p></li>
                     ))}
                   </ul>
                 </div>
@@ -104,7 +104,7 @@ function Navbar() {
               <div className='card' style={{ position: 'absolute', top: '56px', right: '39px', border: '1px solid #dee2e6', width: "300px", transition: 'all .2s ease' }} >
                 <ul className="list-group list-group-flush">
                   {searchResults.map((result, index) => (
-                    <li key={index} className="list-group-item w-100 gap-1 d-flex justify-content-between"><img src={result.image}  height={'40px'} style={{objectFit:'cover',marginLeft:'5px'}}/><p>{result.title}</p></li>
+                    <li key={index} className="list-group-item w-100 gap-1 d-flex justify-content-between"><img src={result.image}  alt='image'    height={'40px'} style={{objectFit:'cover',marginLeft:'5px'}}/><p>{result.title}</p></li>
                   ))}
                 </ul>
               </div>

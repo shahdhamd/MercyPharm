@@ -47,7 +47,7 @@ function AboutPharm() {
                 <div style={{ maxWidth: '280px', margin: 'auto' }}>
                   <img src={i.image} width={'100%'}  height={'320px'} style={{ borderRadius: '5px' ,objectFit:'cover'}} alt={i.title} />
                 </div>
-                <div className="text" style={{ textAlign: 'center', color: 'var(--main-color)', marginTop: '20px' }}>
+                <div className="text" style={{ textAlign: 'center', color: 'var(--main-color)', marginTop: '20px' }} alt={'text'}>
                   <p style={{ fontWeight: '700' }} >{language === 'en'? i.title_en:i.title_ar} </p>
                   <p>{language === 'en'? i.desc_en:i.desc_ar}</p>
                 </div>

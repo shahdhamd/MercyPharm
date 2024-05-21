@@ -16,13 +16,13 @@ function Footer() {
                     // whileInView={{ y: 0, opacity: 1 }}
                     className="row ">
                     <div className="col-md-3 my-4">
-                        <img src='https://mercypharm.com/assets/logo-maVgS3ug.svg' width={'150px'} className='mb-3' />
+                        <img src='https://mercypharm.com/assets/logo-maVgS3ug.svg' alt='logo'   width={'150px'} className='mb-3' />
                         <br />
                         <span>{t("footer.about")}</span>
                     </div>
                     <div className="col-md-3 text-center  my-4">
                         <h5 style={{ lineHeight: '1px' }}>{t("footer.links")}</h5>
-                        <img src='https://mercypharm.com/images/basic/line.svg' className='line' />
+                        <img src='https://mercypharm.com/images/basic/line.svg' alt='line'   className='line' />
                         <p>{t("navlinks.about")}</p>
                         <p>{t("navlinks.home")}</p>
                         <p>{t("navlinks.contact")}</p>
@@ -30,7 +30,7 @@ function Footer() {
                     </div>
                     <div className="col-md-3 text-center  position-relative my-4">
                         <h5 style={{ lineHeight: '1px' }}>{t("footer.our-products")}</h5>
-                        <img src='https://mercypharm.com/images/basic/line.svg' className='line' />
+                        <img src='https://mercypharm.com/images/basic/line.svg'  alt='line'  className='line' />
                         {
                             Product.map((p, index) => (
                                 <div key={index}>

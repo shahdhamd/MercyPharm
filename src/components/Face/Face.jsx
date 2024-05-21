@@ -24,21 +24,21 @@ function Face() {
             <div style={{ margin: '30px 0' }}>
                 <div style={{ margin: 'auto', width: 'fit-content' }} >
                     <h2 style={{ lineHeight: '.2' }}>Face Care</h2>
-                    <img src='https://mercypharm.com/images/basic/line.svg'  width={'100%'} />
+                    <img src='https://mercypharm.com/images/basic/line.svg' alt='line'  width={'100%'} />
                 </div>
                 <SliderProduct Data={DataProduct} />
             </div>
             <div style={{ margin: '30px 0' }}>
                 <div style={{ margin: 'auto', width: 'fit-content' }} >
                     <h2 style={{ lineHeight: '.2' }}>Revitalize & Nourish</h2>
-                    <img src='https://mercypharm.com/images/basic/line.svg' width={'100%'} />
+                    <img src='https://mercypharm.com/images/basic/line.svg'  alt='line'   width={'100%'} />
                 </div>
                 <SliderProduct Data={DataProduct} />
             </div>
             <div style={{ margin: '30px 0' }}>
                 <div style={{ margin: 'auto', width: 'fit-content' }} >
                     <h2 style={{ lineHeight: '.2' }}>Face Wash</h2>
-                    <img src='https://mercypharm.com/images/basic/line.svg' />
+                    <img src='https://mercypharm.com/images/basic/line.svg'  alt='line'  />
                 </div>
                 <SliderProduct Data={DataProduct} />
             </div>

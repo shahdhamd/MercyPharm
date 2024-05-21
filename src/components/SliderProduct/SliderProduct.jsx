@@ -30,7 +30,7 @@ function SliderProduct({ Data }) {
                 {Data.map((item)=>(
                     <SwiperSlide style={{textAlign:'center',padding:'10px',background:'rgb(225, 236, 225)',borderRadius:"20px"}}>
                     <div style={{height:'16rem',margin:'auto',padding:'20px 0',borderBottom:'1px solid var(--main-color)'}}>          
-                        <img src={item.image}  height={'100%'} style={{objectFit:'contain'}}/>
+                        <img src={item.image}  height={'100%'} style={{objectFit:'contain'}} alt='image'  />
                     </div>
                     <p style={{color:'var(--main-color)',fontWeight:'600'}}>{item.title}</p>
                     <span style={{color:'var(--main-color)',fontWeight:'400',fontSize:'small'}}>{item.des}</span>

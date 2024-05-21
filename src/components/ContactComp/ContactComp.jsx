@@ -9,7 +9,7 @@ function ContactComp() {
         return (
         <div className='contact'>
             <div style={{ marginTop: '90px', display: 'flex', justifyContent: 'space-between', alignItems: 'start', position: 'relative' }}>
-                <div className='leav'> <img src='https://mercypharm.com/images/basic/branch.svg' width={'100%'} /></div>
+                <div className='leav'> <img src='https://mercypharm.com/images/basic/branch.svg' width={'100%'} alt='branch' /></div>
                 <div className="text" style={{ padding: '70px 0', textAlign: 'center', padding: '20px 0', flexGrow: 1,direction:language === 'en'? 'rtl':'ltr' }}>
                     <motion.div
                     initial={{y:-100,opacity:0}}
@@ -18,6 +18,7 @@ function ContactComp() {
                     className="h1" style={{ margin: 0, color: 'var(--main-color)', fontSize: '50px', lineHeight: '17px' }}>{t('contact.title')}</motion.div>
                     <motion.img  initial={{y:-100,opacity:0}}
                     animate={{y:0,opacity:1}}
+                    alt='line'
                     transition={{duratio:.5}} src='https://mercypharm.com/images/basic/line.svg' />
                     <motion.p  initial={{y:75,x:100,opacity:0}}
                     animate={{y:0,x:0,opacity:1}}
@@ -42,7 +43,7 @@ function ContactComp() {
                     <i class="fa-brands fa-facebook-f"></i>
                     <p>Facebook</p></div>
             </motion.div>
-            <div ><img src='https://mercypharm.com/images/basic/contact-bg.jpg' width={'100%'} /> </div>
+            <div ><img src='https://mercypharm.com/images/basic/contact-bg.jpg' width={'100%'} alt='contact' /> </div>
         </div>
     )
 }
